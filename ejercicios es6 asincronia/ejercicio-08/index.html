@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game of Thrones Characters</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      text-align: center;
+      background-color: #f4f4f4;
+    }
+    select {
+      padding: 0.5rem;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    img.character-image {
+      max-width: 300px;
+      height: auto;
+      border: 3px solid #333;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+  </style>
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <h1>Game of Thrones - Selecciona un personaje</h1>
+  <select id="character-list">
+    <option value="">-- Elige un personaje --</option>
+  </select>
+  <div>
+    <img class="character-image" src="" alt="Imagen del personaje" />
+  </div>
+</body>
+</html>
